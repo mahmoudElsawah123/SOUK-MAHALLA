@@ -1,0 +1,48 @@
+.Home_Branches{
+  margin: 10px 0;
+}
+.Home_Branches .Home_Branches_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Home_Branches .Home_Branches_header h2 {
+  font-size: 21px;
+}
+.Home_Branches .Home_Branches_header a {
+font-size: 15px;
+color: #808080;
+font-weight: 600;
+}
+.Home_Branches .Branch_content {
+  /* padding: 40px 0 10px; */
+  cursor: pointer;
+  width: 80%;
+  margin:  0 auto;
+}
+.Home_Branches .Branch_content .image_container {
+  height: 100%;
+  width: 100%;
+
+}
+.Home_Branches .Branch_content .image_container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+
+}
+.Home_Branches .Branch_content  h5{
+  margin: 10px 0;
+  font-size: 14px;
+}
+.Home_Branches .Header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

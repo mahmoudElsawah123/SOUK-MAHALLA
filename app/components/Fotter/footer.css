@@ -1,0 +1,225 @@
+
+.Footer .subscribe {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /* margin: 10px auto; */
+  color: var(--bs-white);
+  padding:  80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer .subscribe::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #0000005a;
+  z-index: 1;
+}
+.Footer .subscribe .content {
+  position: relative;
+  z-index: 2;
+  width: 60%;
+}
+
+.Footer .content .content-p p {
+  font-size: 26px;
+} 
+.Footer .content .content-p p span{
+  font-weight: bold;
+}
+
+.Footer .content-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer {
+  margin-top: 100px;
+
+}
+
+.Footer .content-subscribe .search-section {
+  border-bottom-color:white ;
+  width: 50%;
+  margin:  0 20px;
+  text-align: right;
+} 
+.Footer .content-subscribe .search-section svg {
+  font-size: 30px;
+}
+.Footer .content-subscribe .search-section input {
+  background-color: transparent;
+  color: var(--bs-white);
+  width: 70%;
+}
+.Footer .content-subscribe .search-section input:focus {
+  border-color: transparent;
+  outline: transparent;
+}
+.Footer .content-subscribe .search-section input::placeholder {
+  color: var(--bs-white);
+
+}
+.Footer .content-subscribe button {
+  background-color: var(--main-color);
+  color: var(--bs-white);
+  padding: 5px 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: none;
+}
+.Footer .footer-row {
+  justify-content: space-between;
+}
+
+/* start footer */
+
+footer {
+  padding: 60px 20px;
+  background-color: black;
+  color: var(--bs-white);
+}
+footer h3 {
+  font-size: 18px;
+}
+footer .column-footer {
+  margin: 20px 0;
+}
+footer p {
+  font-size: 16px;
+}
+footer hr {
+  height: 2px;
+  background-color: #055c97;
+  opacity: 1;
+}
+footer ul  {
+  padding: 0 !important;
+}
+footer ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+footer ul li div {
+  width: 200px;
+  cursor: pointer;
+}
+footer ul li div img {
+  width: 100%;
+}
+footer ul li a {
+  color: var(--black-color);
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  color: #707070;
+}
+footer ul li a:hover {
+  color: red;
+}
+footer .nav-link {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+
+}
+footer .nav-link:hover {
+  /*color: red !important;
+  */color: var(--bs-white) !important;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+footer ul li .footer-arrow-icon {
+  font-size: 25px;
+  color: #707070;
+}
+footer .rights-container {
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+footer .rights-container h2 {
+  font-size: 18px;
+}
+footer .rights-container .rights-logo {
+  width: 200px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+footer .rights-container .rights-logo img {
+  width: 100%;
+}
+.googleplay-container li {
+  justify-content: center;
+}
+.googleplay-container div {
+  width: 100px;
+}
+
+.SouqImage_container .Souq_Links  svg {
+  color: #2879FE;
+  margin: 10px;
+  font-size: 30px;
+}
+.SouqImage_container li {
+  justify-content: center;
+}
+@media (max-width: 767.98px) {
+  footer .row {
+    flex-direction: column-reverse;
+ }
+}
+
+@media (min-width: 10px) and (max-width: 765.98px) { 
+  .Footer .subscribe {
+    padding: 20px 10px ;
+  }
+  .Footer .content .content-p p {
+    font-size: 22px;
+  }
+  .Footer .subscribe .content {
+    width: 100%;
+  }
+  .Footer .content-subscribe {
+    flex-wrap: wrap;
+
+  }
+  .googleplay-container div {
+    width: 150px;
+  }
+  .Footer .search-section {
+    width: 100% !important;
+    margin: 15px 20px !important;
+  }
+}

@@ -1,0 +1,12 @@
+.Home{
+  min-height: 100vh;
+}
+.diff_col_screen2 {
+  width: 22% !important;
+}
+@media (min-width: 10px) and (max-width: 765.98px) { 
+  .diff_col_screen2 {
+    width: 100% !important;
+  }
+}
+

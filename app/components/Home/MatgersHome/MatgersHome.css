@@ -1,0 +1,13 @@
+.MatgerHome {
+  margin: 50px 0;
+}
+.MatgerHome .MainCatBackgound {
+  min-height: 300px;
+}
+@media (min-width: 10px) and (max-width: 765.98px) { 
+
+  .MatgerHome .MainCatBackgound {
+    min-height: 149px;
+  }
+}
+
