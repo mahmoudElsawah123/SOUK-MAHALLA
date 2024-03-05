@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 import React from 'react'
-import generateRssCats from '@/lib/generateBranchRss'
+// import generateRssCats from '@/lib/generateBranchRss'
 import BranchesProducts from '@/app/components/branch/Branch'
 
 
@@ -12,7 +12,7 @@ export const metadata = {
 
 
 const page = async({params}) => {
-  await generateRssCats(params.id[0])
+  // await generateRssCats(params.id[0])
   metadata.title = params.id.length > 1 ? decodeURIComponent(params.id[1]) :  'سوق المحله الكبري'
   return (
     <>
